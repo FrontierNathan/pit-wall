@@ -1,0 +1,17 @@
+Pit Wall includes data derived from third-party sources.
+
+data/races/*.csv and data/telemetry/*.csv
+  Derived from TracingInsights public F1 data repositories
+  (https://github.com/TracingInsights), licensed under the Apache License 2.0.
+  Fields were renamed and a subset of columns was kept; telemetry was reduced
+  to per-corner metrics by scripts/build_corner_metrics.py.
+  TracingInsights builds its files with FastF1 (https://github.com/theOehrly/Fast-F1)
+  from Formula 1 live timing data.
+
+data/debriefs/*.json
+  Illustrative notes written for this project to demonstrate the debrief
+  checker. They are not real team radio or driver statements.
+
+This project is unofficial and is not associated in any way with the Formula 1
+companies. F1, FORMULA ONE, FORMULA 1, FIA FORMULA ONE WORLD CHAMPIONSHIP,
+GRAND PRIX and related marks are trademarks of Formula One Licensing B.V.

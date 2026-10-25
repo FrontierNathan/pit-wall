@@ -1,0 +1,10 @@
+[project]
+name = "pit-wall"
+version = "0.1.0"
+description = "A race-operations ontology with a human-approved strategy assistant, built on real F1 timing and telemetry."
+requires-python = ">=3.10"
+license = { text = "MIT" }
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+filterwarnings = ["ignore::DeprecationWarning"]
