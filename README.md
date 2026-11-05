@@ -37,7 +37,7 @@ Run it yourself: `python -m pitwall --race data/races/2024_dutch_gp_race.csv bac
 ## Quick start
 
 ```bash
-git clone https://github.com/<your-username>/pit-wall.git
+git clone https://github.com/FrontierNathan/pit-wall.git
 cd pit-wall
 python -m venv .venv && source .venv/bin/activate   # Windows: .venv\Scripts\activate
 pip install -r requirements.txt
